@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-body{
+.bodyP{
     background-image: url(../img/fondo2.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -116,3 +116,54 @@ button:hover{
     margin-left: 5%;
 }
 
+/*Ejercicio 2 Temperaturas*/
+
+.bodyT{
+    background-image: url(../img/temperatura.jpg);
+}
+
+.containerT{
+    background-color: rgba(169, 169, 169, 0.733);
+    width: 70%;
+    height: 80%;
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+
+.tituloT{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.caja1T{
+    width: 40%;
+    display: flex;
+    padding: 1rem;
+}
+
+select{
+    margin: 5rem;
+    background-color:plum;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.select1T{
+    width: 90%;
+    margin: 5rem;
+    border-radius: 0.5rem;
+    margin-left: 7rem;
+    background-color: rgb(106, 250, 255);
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.select2T{
+    width: 90%;
+    margin: 5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(106, 250, 255);
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
