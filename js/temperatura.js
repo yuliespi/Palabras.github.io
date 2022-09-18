@@ -1,41 +1,36 @@
-var C,K,F;
-  function reset()
-  {
-  C=0;K=0;F=0;
-  }
-  function Calcular()
-{      
-  var opcion = document.getElementById("accion").value;
-  if(opcion != ''){
-    
-    //Kelvin a Celsius C=K-273
 
- 
-        switch (opcion)
-           {     //Fahrenheit a Celsius   C =(F-32)*5/9
-                  case 'Fahrenheit a Celsius':
-                    F = document.getElementById("num").value
-       C =(F-32)*5/9;
-       alert(" C: " + C +"");
-       reset();
-       break;
-  }
+function temperaturas(){
+  let calcular=parseInt(document.getElementById("numero").value);
+  let convertir=document.getElementById("lista1").value;
+  let convertir2=document.getElementById("lista2").value;
+  console.log(convertir, convertir2);
 
-  }
+
+      if(convertir==1 && convertir2==2){
+        let KC = parseInt(calcular-273);
+        alert(`El total de kelvin a celsius ${KC}`);
+
+      }else if(convertir==2 && convertir2==3){
+        let CF = parseInt((calcular * 9/5) +32)
+        alert(`Los grados celsius a fareheit son ${CF}`);
+      }
+
+      else if(convertir==3 && convertir2==1){
+          alert(`Los grados fareheint convertidos a kelvin son ${5/9 (calcular-32)+273,15}`);
+      }
+
+      else if(convertir==1 && convertir2==3){
+          alert(`Los grados Kelvin a Fareheit son ${(calcular-273)*9/5+32}`);
+      }
+
+      else if(convertir==2 && convertir2==1){
+        alert(`Los grados Celcius a Kelvin son ${(calcular+273.15)}`);
+      }
+
+      else if(convertir==3 && convertir2==2){
+        alert(`Los grados Fareheint a Celsius son ${(calcular*1.8)+32}`);
+      }
+      else{
+        alert("Error 404")
+      }
 }
-
-
-/*function temperatura(fareheit){
-    var fareheit=prompt('Digite los grados que desea convertir')
-    res=fareheit
-    alert(`los grados fareheit convertidos a celsius es  ${(res - 32) * 5/9 }.`);
-  }*/
-
-/*let f = 90;
-let c = 10;
-alert(`90 grados fareheit convertidos a celsius es  ${(f - 32) * 5/9 }.`);
-
-let F =80;
-let C=90;
-alert(`90 grados celsius convertidos a fareheit es  ${F * 1.8 + 32 }.`);
-*/
