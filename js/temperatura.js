@@ -1,6 +1,7 @@
 
 function temperaturas(){
-  let calcular=parseInt(document.getElementById("numero").value);
+  let calcular=document.getElementById("numero").value;
+  
   let convertir=document.getElementById("lista1").value;
   let convertir2=document.getElementById("lista2").value;
   console.log(convertir, convertir2);
