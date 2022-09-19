@@ -227,3 +227,11 @@ a{
 }
 
 /*Triangulos*/
+.BodyTri{
+    background-image: url(../img/indexT.jpg);
+    background-size: cover;
+}
+
+.tituloTri{
+    text-align: center;
+}

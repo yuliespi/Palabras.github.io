@@ -1,10 +1,12 @@
 
 function temperaturas(){
-  let calcular=document.getElementById("numero").value;
+  let calcular=parseInt(document.getElementById("numero").value);
   
   let convertir=document.getElementById("lista1").value;
+  convertir=parseInt(convertir)
+
   let convertir2=document.getElementById("lista2").value;
-  console.log(convertir, convertir2);
+  convertir2=parseInt(convertir2)
 
 
       if(convertir==1 && convertir2==2){
@@ -17,7 +19,7 @@ function temperaturas(){
       }
 
       else if(convertir==3 && convertir2==1){
-          alert(`Los grados fareheint convertidos a kelvin son ${5/9 (calcular-32)+273,15}`);
+          alert(`Los grados fareheint convertidos a kelvin son ${5/9 *(calcular-32)+273.15}`);
       }
 
       else if(convertir==1 && convertir2==3){
@@ -30,8 +32,5 @@ function temperaturas(){
 
       else if(convertir==3 && convertir2==2){
         alert(`Los grados Fareheint a Celsius son ${(calcular*1.8)+32}`);
-      }
-      else{
-        alert("Error 404")
       }
 }
