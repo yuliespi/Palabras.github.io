@@ -287,3 +287,15 @@ a{
     text-align: center;
 }
 
+.bodyForm form{
+    background-color: aliceblue;
+    width: 80%;
+    margin: 1rem;
+    margin-left: 10rem;
+    color: black;
+    text-align: center;
+}
+
+#tipo{
+    color: black;
+}
