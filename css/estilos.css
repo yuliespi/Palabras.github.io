@@ -277,3 +277,13 @@ a{
     width: 90%;
     margin: 1rem;
 }
+
+/*Formularios registro*/
+.bodyForm{
+    background-color: cornflowerblue;
+}
+
+.tituloform{
+    text-align: center;
+}
+
