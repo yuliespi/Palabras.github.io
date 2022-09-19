@@ -1,7 +1,14 @@
 *{
     margin: 0;
 }
-
+.btnRe{
+    background-color: blue;
+    border: none;
+    width: 10%;
+    height: 40px;
+    margin-left: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .bodyP{
     background-image: url(../img/fondo2.webp);
     background-repeat: no-repeat;
@@ -132,7 +139,7 @@ button:hover{
 
 .tituloT{
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .caja1T{
@@ -146,7 +153,7 @@ select{
     background-color:plum;
     border-radius: 0.5rem;
     font-size: 1rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .select1T{
@@ -156,7 +163,7 @@ select{
     margin-left: 7rem;
     background-color: rgb(106, 250, 255);
     padding: 1rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .select2T{
@@ -165,18 +172,10 @@ select{
     border-radius: 0.5rem;
     background-color: rgb(106, 250, 255);
     padding: 1rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.btnT{
-    width: 40%;
-    height: 20px;
-    border: none;
-    background-color: rgb(15, 11, 243);
-    color: black;
-    margin-left: 20rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 
 /*INDEX*/
 .index{
@@ -190,7 +189,7 @@ select{
     margin: 3px;
     text-align: center;
     color: rgb(20, 3, 248);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .cajaI{
@@ -201,7 +200,7 @@ select{
 a{
     color: rgb(8, 8, 8);
     text-decoration: none;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1rem;
 }
 
@@ -230,7 +229,21 @@ a{
 .BodyTri{
     background-image: url(../img/indexT.jpg);
     background-size: cover;
+    text-align: center;
+    margin: 2rem;
 }
+
+.cajaTRI{
+    margin: 1rem;
+}
+
+.cajaTRI input{
+    margin: 1rem;
+    width: 20%;
+    border-radius: 1px;
+}
+
+
 
 .tituloTri{
     text-align: center;
@@ -298,4 +311,11 @@ a{
 
 #tipo{
     color: black;
+}
+
+/*nombre*/
+.bodyNom{
+    background-image: url(../img/index1.jpg);
+    background-size: cover;
+    text-align: center;
 }

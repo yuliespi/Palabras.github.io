@@ -9,18 +9,19 @@
 </head>
 <body class="BodyTri">
     <h1 class="tituloTri">Triangulos</h1>
+        <div class="cajaTRI">
+            <label for="lado1">Digite el primer lado del triangulo</label>
+            <input type="text" id="lado1"><br>
 
-    <label for="lado1">Digite el primer lado del triangulo</label>
-    <input type="text" id="lado1"><br>
+            <label for="lado2">Digite el segundo lado del triangulo</label>
+            <input type="text" id="lado2"><br>
 
-    <label for="lado2">Digite el segundo lado del triangulo</label>
-    <input type="text" id="lado2"><br>
+            <label for="lado3">Digite el tercer lado del triangulo</label>
+            <input type="text" id="lado3"><br>
 
-    <label for="lado3">Digite el tercer lado del triangulo</label>
-    <input type="text" id="lado3"><br>
-
-    <button type="submit" id="button" onclick="triangulos()">Medir</button>
-
+            <button type="submit" id="button" onclick="triangulos()" class="btnRe">Medir</button>
+            <button class="btnRe"><a href="index.html">Regresar</a></button> 
+        </div>
     <script src="js/triangulos.js"></script>
 </body>
 </html>
