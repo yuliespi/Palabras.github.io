@@ -18,7 +18,7 @@ function mayuscula(digita){
 //Pasando la palabra a minusculas:
 
     function minuscula(){
-    var minu=prompt('Digite la palabra en mayusculas que desea convertir a minusculas')
+    var minu=prompt('Digite la palabra en MAYUSCULAS que desea convertir a minusculas')
     alert("Su palabra en minusculas es:" +minu.toString().toLowerCase());
 }
 

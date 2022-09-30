@@ -290,6 +290,109 @@ a{
     width: 90%;
     margin: 1rem;
 }
+/*Perimetro cuadrado*/
+
+.peri{
+    background-color: blueviolet;
+    border: none;
+    color: antiquewhite;
+    width: 50%;
+    border-radius: 5%;
+    margin-left: 4%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.open-modal{
+    background-color: blueviolet;
+    border: none;
+    color: antiquewhite;
+    width: 50%;
+    border-radius: 5%;
+    margin-left: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.modal { 
+    width: 20%;
+    position: fixed;
+    text-align: center;
+    margin-left: 30%;
+    padding: 1rem;
+    background-color: rgb(227, 181, 233);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.35s ease-in;
+  }
+
+  .close-modal{
+    background-color: blueviolet;
+    border: none;
+    color: antiquewhite;
+    width: 10%;
+    float: right;
+    border-radius: 5%;
+    margin-left: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .modal-content{
+    text-align: center;
+  }
+
+
+.modal {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.35s ease-in;
+  }
+   
+  .modal.is-visible {
+    visibility: visible;
+    opacity: 1;
+  }
+  /*Area cuadrado*/
+
+  .modal.is-visiblea {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /*Perimetro RECTANGULO*/
+
+  .modal.is-visibleR {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /*Area RECTANGULO*/
+  .modal.is-visibleRA {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /*perimetro TRIANGULO*/
+  .modal.is-visibleT {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /*Area TRIANGULO*/
+  .modal.is-visibleTA {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /*Perimetro CIRCULO*/
+  .modal.is-visibleC {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /*area CIRCULO*/
+  .modal.is-visibleCir {
+    visibility: visible;
+    opacity: 1;
+  }
 
 /*Formularios registro*/
 .bodyForm{
