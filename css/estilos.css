@@ -406,6 +406,7 @@ a{
 .bodyForm form{
     background-color: aliceblue;
     width: 80%;
+    height: 80vh;
     margin: 1rem;
     margin-left: 10rem;
     color: black;
@@ -415,6 +416,15 @@ a{
 #tipo{
     color: black;
 }
+
+.modal.is-visibleF {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .bodyForm input{
+    margin: 0.5%;
+  }
 
 /*nombre*/
 .bodyNom{
