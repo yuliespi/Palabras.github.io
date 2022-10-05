@@ -417,13 +417,72 @@ a{
     color: black;
 }
 
-.modal.is-visibleF {
-    visibility: visible;
-    opacity: 1;
-  }
-
   .bodyForm input{
     margin: 0.5%;
+  }
+
+  /*Modal de condiciones*/
+.open-modal{
+    background-color: #fffefcd3;
+    border: none;
+    margin-left: 5%;
+    color: rgb(17, 17, 17);
+    width: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.modal-header h2{
+    width: 100%;
+    margin: 0%;
+    background: linear-gradient(to right, rgb(227, 181, 233), blueviolet);
+}
+
+.open-modal input{
+    width: 10%;
+
+}
+.modal { 
+    width: 30%;
+    height: 50%;
+    position: fixed;
+    text-align: center;
+    margin-top: -30%;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.35s ease-in;
+  }
+
+  .close-modal{
+    background-color: #2b2929;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    border-radius: 5%;
+  }
+
+  .modal-header button{
+    width: 20%;
+    height: 15%;
+  }
+
+  .modal-content{
+    text-align: center;
+    margin: 2%;
+  }
+
+
+.modal {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.35s ease-in;
+  }
+   
+  .modal.is-visible {
+    visibility: visible;
+    opacity: 1;
   }
 
 /*nombre*/

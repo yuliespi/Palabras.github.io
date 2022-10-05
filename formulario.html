@@ -39,29 +39,33 @@
         <label for="pass">Confirmar contraseña</label>
         <input type="password" required><br>
 
-        <button type="button" class="open-modal" data-open="modal1" required>Acepto terminos y condiciones</button><br>
-    
+        <button class="open-modal" type="button" data-open="modal1"><input  type="checkbox" required>Acepto terminos y Condiciones</button>
 
-            <div class="modal" id="modal1">
-                <div class="modal-dialog">
-                    <header class="modal-header">
+
+        <div class="modal" id="modal1">
+            <div class="modal-dialog">
+                <header class="modal-header">
+                    <h2>Terminos y Condiciones</h2>
+                </header>
+                <section class="modal-content">
+                    <p>Estos Terminos del Servicio reflejan la forma de trabajar
+                        de Google como empresa, las leyes por las que nos rejimos
+                        y determinamos aspectos que siempre hemos creido que son
+                        ciertos. Por ello, estos Terminos del Sericio ayudan a definir
+                        la relacion que tiene Google contigo cuando interactuas con nuestros
+                        servicios. Por ejemplo, estos terminos incluyen las siguientes
+                        secciones: </p><br>
+                        <p>
+                        Que puedes esperar de nosotros, donde se describe como
+                        porporcionamos y desarrollamos nuestros servicios. Lo 
+                        que esperamos de ti. Donde se establece ciertas reglas
+                        para utilizar nuestros servicios.</p>
+                </section>
+                <header class="modal-header">
                     <button class="close-modal" aria-label="close modal" data-close>Aceptar</button><br>
                     </header>
-                    <section class="modal-content">
-                        <h1>Acepta terminos y condiciones</h1>
-                        <p>Al subir contenido o al enviarlo por otros medios a nuestros Servicios, 
-                            concedes a Google (y a sus colaboradores) una licencia mundial para usar, 
-                            alojar, almacenar, reproducir, modificar, crear obras derivadas (por ejemplo, las que resulten de la traducción, 
-                            la adaptación u otros cambios que realicemos para que tu contenido se adapte mejor a nuestros Servicios), comunicar,
-                            publicar, ejecutar o mostrar públicamente y distribuir dicho contenido. Google usará los derechos que le confiere 
-                            esta licencia únicamente con el fin de proporcionar, promocionar y mejorar los Servicios y de desarrollar servicios
-                            nuevos. Esta licencia seguirá vigente incluso cuando dejes de usar nuestros Servicios (por ejemplo, en el caso de una
-                            ficha de empresa que hayas añadido a Google Maps).
-                            Algunos Servicios te permiten acceder al contenido que hayas proporcionado y eliminarlo.</p>
-
-                    </section>
-                </div>
-                </div>
+            </div>
+            </div><br>
 
         <button type="submit" class="btnRe">Enviar</button>     
     </form>   
